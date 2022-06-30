@@ -1,0 +1,113 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    margin: 0;
+}
+.container{
+    max-width: 1200px;
+}
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.navbar ul{
+    display: flex;
+    justify-content: space-evenly;
+}
+.navbar li{
+    list-style-type: none;
+    margin-right: 40px;
+}
+.navbar li a{
+    text-decoration: none;
+    font-size: 20px;
+}
+.navbar h1 {
+    font-size: 30px !important;
+    font-weight: 200;
+}
+.navbar h1 a{
+    text-decoration: none;
+}
+
+/* footer */
+footer{
+    text-align: center;
+    background-color: cornsilk;
+    padding: 20px;
+}
+
+
+/* homepage */
+.main{
+    width: 70%;
+    margin-right: auto;
+    margin-left: auto;
+}
+.main .title{
+    font-weight: 200;
+}
+.main .description{
+    font-size: 18px;
+    color: rgb(54, 54, 54);
+}
+.main .title span{
+    border-bottom: 1px solid black;
+}
+
+/* about */
+.about p{
+    font-size: 20px;
+    color:rgb(54, 54, 54)
+}
+.about p:last-child{
+    margin-bottom: 300px;
+}
+
+
+/* game page */
+.game-container{
+    width: 70%;
+    margin-right: auto;
+    margin-left: auto;
+}
+.game-container h1, h2{
+    font-weight: 300;
+}
+.game-container button{
+    color: white;
+    background-color: black;
+    border: none;
+    padding: 13px 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+#turn {
+    font-size: 20px;
+    font-weight: bold;
+}
+img{
+    width: 500px;
+    height: auto;
+}
+#owner {
+    color: rgb(117, 2, 2);
+}
+table{
+    /* border: 1px solid black; */
+    border-radius: 10px;
+}
+td {
+	/* background-color: black; */
+    border: 3px solid black;
+    cursor: pointer;
+    font-size: 80px;
+    font-weight: 100;
+	color: black;
+    border-radius: 10px;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+}

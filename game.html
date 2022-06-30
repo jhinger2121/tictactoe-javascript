@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div>
+        <nav class="navbar">
+            <h1><a href="index.html">Tic Tac Toe</a></h1>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="game.html">Play Game</a></li>
+                <li><a href="about.html">About Me</a></li>
+            </ul>
+        </nav>
+    </div>
+    <div class="container game-container">
+        <h1>Tic Tac Toe Game</h1>
+        <div class="game-container">
+            <p id="turn">X turn</p>
+            <table>
+                <tr class="row-1">
+                    <td index="0"></td>
+                    <td index="1"></td>
+                    <td index="2"></td>
+                </tr>
+                <tr class="row-2">
+                    <td index="3"></td>
+                    <td index="4"></td>
+                    <td index="5"></td>
+                </tr>
+                <tr class="row-3">
+                    <td index="6"></td>
+                    <td index="7"></td>
+                    <td index="8"></td>
+                </tr>
+            </table>
+            <button id="reset">Reset</button>
+            <button id="lastWinner">Last Match Winner</button>
+            <button id="checkTime">Time now</button>
+        </div>
+        <div>
+            <h2 id="winner"></h2>
+        </div>
+        <hr>
+        <div>
+            <span>Click <a href="#" id="getOwner">here</a>  to check who created this project.</span>
+            <p id="owner"></p>
+        </div>
+        <hr>
+        <div>
+            <p>Move back and forward in your browser</p>
+            <button id="back">back</button>
+            <button id="forward">forward</button>
+        </div>
+        <hr>
+        <div>
+            <p>Click <a href="#" id="naimal">here</a> to get random dog pick if you like dogs</p>
+            <img src="" alt="" id="ramdomDog">
+        </div>
+
+
+    </div>
+
+    <footer>
+        <p>Created by Kuldeep Singh Jhinjer</p>
+    </footer>
+    <script src="js/tic_tac_toe.js"></script>
+</body>
+</html>
